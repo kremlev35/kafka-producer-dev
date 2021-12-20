@@ -1,0 +1,9 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: kafka-producer-dev
+  kafka:
+    topics:
+      topic-primary: vtb-integration-fns-publication-primary
+      topic-increment: vtb-integration-fns-publication-increment
